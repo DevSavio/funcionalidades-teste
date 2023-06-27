@@ -1,0 +1,18 @@
+::ng-deep router-outlet + * {
+    display: block;
+    animation: fade 1s;
+
+    @keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+    }
+}
+
+:host nb-layout-header nb-user:last-child {
+    margin-left: auto;
+}
